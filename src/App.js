@@ -44,7 +44,7 @@ function App() {
       <>
         <div className='relative max-w-[1920px] mx-auto overflow-y-hidden lg:min-h-[782px] md:h-[768px] sm:h-[610px] h-[545px]'>
           <Header />
-          <div className='absolute sm:top-0 top-[30%] left-0 right-0 bottom-0 md:opacity-100 opacity-85'>
+          <div className='absolute sm:top-0 left-0 right-0 sm:bottom-0 bottom-[-10%] md:opacity-100 opacity-85'>
             <HeaderBg />
           </div>
         </div>
