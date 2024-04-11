@@ -71,15 +71,15 @@ export const BusinessData = () => {
 
 export const GradientLine = () => {
     return (
-        <div className='bg-whitegradient w-full h-[1px] sm:my-12 my-8'>
+        <div className='bg-whitegradient w-full h-[1px] sm:my-12 my-8 relative z-[1]'>
         </div>
     )
 }
 
 export const GradientLineBtn = () => {
     return (
-        <div className='relative flex items-center justify-center md:mt-8 md:mb-9 my-7'>
-            <button className='text-2sm font-medium text-white leading-2xl text-center mx-auto py-1 px-3 bg-lightgray-700 rounded-[10px] relative z-10'>£408 billed annually</button>
+        <div className='relative flex items-center justify-center md:mt-8 md:mb-9 my-7 z-10'>
+            <button className='text-2sm font-medium text-white leading-2xl text-center mx-auto py-1 px-3 bg-lightgray-700 backdrop-blur-2xl rounded-[10px] relative z-10 '>£408 billed annually</button>
             <div className='bg-whitegradient absolute w-full h-[1px] left-0 right-0 z-[1]'>
             </div>
         </div>
