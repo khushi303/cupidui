@@ -50,7 +50,7 @@ const TrustedSlider = () => {
                             {SliderData.map((slides, i) => {
                                 return (
                                     <div key={i} className='mx-3'>
-                                        <a href={slides.link} className='flex items-center justify-center'>
+                                        <a href={slides.link} target='blank' className='flex items-center justify-center'>
                                             <img src={slides.img} alt={slides.alt} className='h-[48px] max-w-[170px] w-full' />
                                         </a>
                                     </div>
