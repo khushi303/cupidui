@@ -12,11 +12,11 @@ export const NavData = [
     },
     {
         title: "Why us",
-        path: "#whyus"
+        path: "#Crm"
     },
     {
         title: "Services",
-        path: "#service"
+        path: "#Services"
     },
     {
         title: "FAQ",
@@ -27,23 +27,28 @@ export const NavData = [
 export const SliderData = [
     {
         img: boltimg,
-        alt: "boltimg"
+        alt: "boltimg",
+        link: 'https://ecommerce-excite.vercel.app/'
     },
     {
         img: lightimg,
-        alt: "lightimg"
+        alt: "lightimg",
+        link: 'https://www.lightboxre.com/'
     },
     {
         img: featherimg,
-        alt: "featherimg"
+        alt: "featherimg",
+        link: 'https://feathersjs.com/'
     },
     {
         img: sphruleimg,
-        alt: "sphruleimg"
+        alt: "sphruleimg",
+        link: 'https://spherule.org/'
     },
     {
         img: globalimg,
-        alt: "globalimg"
+        alt: "globalimg",
+        link: 'https://www.globalbank.com.pa/'
     },
 ]
 
@@ -52,7 +57,6 @@ export const CrmContent = [
         title: "Hyper Realistic AI Content",
         description: "Advanced generation techniques helps us generate the best AI generation within the industry",
         textcolor: "text-lightgray-100",
-        spacing: ""
     },
     {
         title: "Streamlined Workflow",

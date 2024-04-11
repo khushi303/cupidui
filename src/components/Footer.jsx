@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterGradientMixup, Gradientline, Hubsvg, Logo, Pattern, Tweeter } from './common/Icons'
+import { FooterGradientMixup, Gradientline, Logo, Pattern } from './common/Icons'
 import { footerlink, footerlinks } from './common/MapData'
 
 const Footer = () => {
@@ -24,7 +24,7 @@ const Footer = () => {
                                 return (
                                     <>
                                         <li key={i} className='lg:px-12 lg:py-8 sm:px-5 py-2 px-2'>
-                                            <a href={item.link} className='text-white  text-xs tracking-[3.5%] text-cen leading-5 text-lightgray-600 uppercase'>{item.title}</a>
+                                            <a href={item.link} className=' text-xs tracking-[3.5%] text-cen leading-5 text-lightgray-600 uppercase'>{item.title}</a>
                                         </li>
                                     </>
                                 )
@@ -32,12 +32,12 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className='flex items-center sm:justify-between sm:flex-row flex-col  sm:gap-0 gap-4 justify-center sm:py-6 py-4'>
-                        <p className='text-sm font-normal text-lightgray-600 leading-5'>©2024. All rights reserved</p>
+                        <p className='text-sm font-normal text-lightgray-600 leading-5'>©{(new Date().getFullYear())}. All rights reserved</p>
                         <div className='flex gap-8 items-center'>
                             {footerlinks.map((item, i) => {
                                 return (
                                     <>
-                                        <a href={item.link} target='blank' key={i} className='w-10 h-10 bg-darkblue rounded-full flex items-center justify-center'>
+                                        <a href={item.link} target='blank' key={i} className='w-10 h-10 border-[2px] border-solid border-darkblue hover:bg-white transition-all duration-300 ease-linear group bg-darkblue rounded-full flex items-center justify-center'>
                                             {item.linksvg}
                                         </a>
                                     </>
