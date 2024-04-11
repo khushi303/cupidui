@@ -2,12 +2,80 @@
   scroll-behavior: smooth !important;
 }
 
-/* 
-.border_gradient {
-  border-image: linear-gradient(to left, rgba(251, 240, 240, 0.18) 23.99%, rgba(255, 255, 255, 0.04) 43.22%, rgba(251, 240, 240, 0.18) 8.62%, rgba(255, 255, 255, 0.04) 38.8%);
-  border-image-slice: 1;
-} */
+body {
+  background: #040403 !important;
+}
+
+.border_gradient::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  background:
+    linear-gradient(266.68deg, rgba(251, 240, 240, 0.18) 23.99%, rgba(255, 255, 255, 0.04) 43.22%),
+    linear-gradient(91.18deg, rgba(251, 240, 240, 0.18) 8.62%, rgba(255, 255, 255, 0.04) 38.8%);
+  z-index: -1;
+  border-radius: 60px;
+
+}
 
 .navLinks:hover {
   -webkit-text-stroke: 0.7px;
+}
+
+.crmimg::-webkit-scrollbar {
+  display: none;
+}
+
+.crmimg {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.crmimgshadow {
+  box-shadow: 40.65px -0.99px 8.92px 0px #00000033;
+}
+
+.blur_box_border {
+  border-radius: 24px;
+  backdrop-filter: blur(200px);
+  position: relative;
+  background-color: #FFFFFF0D;
+  transition: all .3s linear !important;
+}
+
+.blur_box_border::after {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  padding: 0.9px;
+  inset: 0;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: clear;
+  pointer-events: none;
+  border-radius: 24px;
+  background: linear-gradient(106.78deg, rgba(255, 255, 255, 0.23) 6.02%, rgba(255, 255, 255, 0.0759) 104.65%);
+  transition: all .3s linear !important;
+}
+
+.blur_box_border:hover::after {
+  background: linear-gradient(235.8deg, #7F04E3 -12.6%, #FF006B 106.18%);
+  padding: 3px;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(5px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
