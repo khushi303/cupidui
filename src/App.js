@@ -55,7 +55,7 @@ function App() {
         <Priceing />
         <Faq />
         <Footer />
-        <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-cardgradient sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-7 right-7 z-40 cursor-pointer`} onClick={() => top()}>
+          <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-cardgradient sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-7 right-7 z-40 cursor-pointer hover:shadow-gradientRed transition-all duration-300 ease-linear`} onClick={() => top()}>
           <img src={TopBtn} alt="TopBtn" className='sm:max-w-[40px] max-w-[30px]' />
         </div>
       </>
