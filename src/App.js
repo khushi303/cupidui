@@ -32,7 +32,7 @@ function App() {
     setScreenLoading(true);
     setTimeout(() => {
       setScreenLoading(false);
-    }, 4000);
+    }, 3500);
   }, []);
   return (<>
     {screenLoading ? (<>
