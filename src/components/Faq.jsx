@@ -11,7 +11,7 @@ const Faq = () => {
     };
     return (
         <>
-            <div id='faqs' className='lg:mt-72 lg:mb-52 md:my-24 my-10 lg:pb-3 lg:pt-1'>
+            <div id='faqs' className='lg:mt-72 lg:mb-52 md:my-24 my-10 lg:pt-1'>
                 <div className='container px-3 sm:max-w-[700px] mx-auto'>
                     <h3 className='sm:text-6xl text-4xl font-bold sm:leading-[48px] leading-9 tracking-[-1.2px] text-white'>FAQs</h3>
                     <p className='sm:text-xxl text-lg font-medium sm:leading-[28px] left-5 tracking-[-0.3px] text-lightgray lg:mt-5 mt-4'>Answers to the most frequently asked questions.</p>
