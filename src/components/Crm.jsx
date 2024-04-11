@@ -8,9 +8,9 @@ const Crm = () => {
     return (
         <>
             <div id='Crm' className='container mx-auto px-3 max-w-[1320px] lg:pt-[93px] md:pt-14 py-10'>
-                <h2 className='sm:text-9xl text-5xl text-white sm:leading-[56px] font-bold'>A CRM created
+                <h2 className='sm:text-9xl text-5xl text-white sm:leading-[55px] font-bold'>A CRM created
                     <span className='sm:block'>to be your own.</span></h2>
-                <p className='text-xxl font-medium leading-[30px] tracking-[-0.3px] text-lightgray sm:mt-5 mt-4'>Tweak anything and everything to ensure fits <span className='md:block'>your business, not the other way around.</span></p>
+                <p className='text-xxl font-medium leading-[29px] tracking-[-0.3px] text-lightgray sm:mt-5 mt-4'>Tweak anything and everything to ensure fits <span className='md:block'>your business, not the other way around.</span></p>
                 <div className='bg-darkblack lg:mt-[92px] md:mt-12 mt-8 border border-solid border-[#3C3C3C] lg:pl-10 lg:pt-9 lg:pr-[38px] rounded-[20px] px-5 pt-5'>
                     <div className='flex justify-between flex-wrap'>
                         {CrmContent.map((item, i) => {
