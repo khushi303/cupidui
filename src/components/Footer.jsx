@@ -12,9 +12,9 @@ const Footer = () => {
                     <div className='flex items-center justify-center '>
                         <button className='mt-8 px-5 py-2 bg-btngradientfooter rounded-xl hover:shadow-gradientRed transition-all duration-300 ease-linear text-base font-medium text-white text-center relative z-10'>Start free trail</button>
                     </div>
-                    <div className='absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center z-[0]'><Pattern /></div>
+                    <div className='absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center z-[-1]'><Pattern /></div>
                 </div>
-                <div className='lg:mt-20 md:mt-11 mt-5 lg:pt-2 container mx-auto px-3 max-w-[1320px] relative z-10'>
+                <div className='lg:mt-20 md:mt-11 mt-5 lg:pt-2 container mx-auto px-3 max-w-[1320px] relative z-30'>
                     <div className='flex items-center lg:justify-between lg:flex-row flex-col border-b border-solid border-lightgray-700 lg:mt-10 lg:gap-0 gap-3 lg:pb-0 pb-5'>
                         <a href='/'>
                             <Logo />
