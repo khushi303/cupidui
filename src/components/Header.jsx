@@ -34,7 +34,7 @@ const Header = () => {
                     </ul>
                     <div className='hidden items-center justify-center gap-5 lg:flex relative z-20'>
                         <a href='#login' className='text-white text-xl leading-6 hover:text-transparent hover:bg-btngradient hover:bg-clip-text inline-block transition-all duration-300 ease-linear'>Log in</a>
-                        <CommonBtn name="Sing up" />
+                        <CommonBtn name="Sign up" />
                     </div>
                     <div className='relative z-50 lg:hidden block'>
                         <Hamburger toggled={open} toggle={setOpen} size={25} color='#fff' />
