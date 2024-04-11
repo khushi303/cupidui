@@ -41,8 +41,8 @@ function App() {
           <Logo />
         </div>
       </div> </>) : (
-      <div>
-        <div className='relative max-w-[1920px] mx-auto overflow-hidden lg:min-h-[782px] md:h-[768px] sm:h-[610px] h-[545px]'>
+      <>
+        <div className='relative max-w-[1920px] mx-auto overflow-y-hidden lg:min-h-[782px] md:h-[768px] sm:h-[610px] h-[545px]'>
           <Header />
           <div className='absolute sm:top-0 top-[30%] left-0 right-0 bottom-0 md:opacity-100 opacity-85'>
             <HeaderBg />
@@ -58,7 +58,7 @@ function App() {
         <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-cardgradient sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-7 right-7 z-40 cursor-pointer`} onClick={() => top()}>
           <img src={TopBtn} alt="TopBtn" className='sm:max-w-[40px] max-w-[30px]' />
         </div>
-      </div>
+      </>
     )
     }</>
   );
