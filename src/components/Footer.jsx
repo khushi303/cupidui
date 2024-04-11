@@ -46,7 +46,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <span className="absolute lg:bottom-0 md:bottom-[-20%] md:left-[unset] left-[-50%] bottom-[-10%] z-0"><FooterGradientMixup /></span>
+                <span className="absolute lg:bottom-0 md:bottom-[-20%] md:left-0 left-[-50%] bottom-[-10%] z-0"><FooterGradientMixup /></span>
             </div>
         </>
     )
