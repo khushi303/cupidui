@@ -864,7 +864,7 @@ export const WhiteArrow = () => {
 export const FooterGradientMixup = () => {
     return (
         <svg
-            className="lg:h-[1085px] h-[800px] object-center"
+            className="lg:h-[1085px] h-[800px] object-center w-full"
             width="1920"
             viewBox="0 0 1440 802"
             fill="none"
