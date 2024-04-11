@@ -38,7 +38,6 @@ export const HeaderBg = () => {
                 </filter>
             </defs>
         </svg>
-
     )
 }
 
