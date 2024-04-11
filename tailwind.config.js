@@ -32,7 +32,6 @@ module.exports = {
       },
       backgroundImage: {
         "btngradient": "linear-gradient(235.8deg, #7F04E3 -12.6%, #FF006B 106.18%)",
-        "textgradient": "linear-gradient(88.36deg, #7f04e3 45.88%, #ff006b 76.63%)",
         "navborder": " linear-gradient(266.68deg, rgba(251, 240, 240, 0.18) 23.99%, rgba(255, 255, 255, 0.04) 43.22%),linear-gradient(91.18deg, rgba(251, 240, 240, 0.18) 8.62%, rgba(255, 255, 255, 0.04) 38.8%)",
         'bgservice': 'url(./assets/images/webp/servicebgimg.webp)',
         'bgservicegradient': 'linear-gradient(180deg, rgba(14, 14, 14, 0)0%, #040403 100%)',

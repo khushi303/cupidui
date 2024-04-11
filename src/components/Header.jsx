@@ -41,7 +41,7 @@ const Header = () => {
                     </div>
                 </nav>
                 <div id='home' className='sm:pt-16.5 pt-12 flex items-center flex-col justify-center relative z-10'>
-                    <h1 className='font-bold sm:text-2xxl text-5xl leading-[46px] text-white sm:leading-[65px] text-center'>Unleash <span className='bg-clip-text text-transparent bg-textgradient inline-block'>Creativity</span>,
+                    <h1 className='font-bold sm:text-2xxl text-5xl leading-[46px] text-white sm:leading-[65px] text-center'>Unleash <span className='bg-clip-text text-transparent bg-btngradientfooter inline-block'>Creativity</span>,
                         <span className='md:block'>Effortlessly</span></h1>
                     <p className='font-normal text-xl leading-6 text-center text-white mt-2 mb-5'>Elevate your agency's output with state-of-the-art AI, engineered <span className='md:block'>to innovate at the speed of thought.</span></p>
                     <CommonBtn name="Try Now" />
