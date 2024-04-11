@@ -116,7 +116,7 @@ export const accordionData = [
 export const footerlink = [
     {
         title: 'features',
-        link: '#features'
+        link: '#Crm'
     },
     {
         title: 'Services',
@@ -128,7 +128,7 @@ export const footerlink = [
     },
     {
         title: 'how to use',
-        link: '#Crm'
+        link: '#footer'
     },
 ]
 
