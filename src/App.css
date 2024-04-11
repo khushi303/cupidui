@@ -21,8 +21,18 @@ body {
 
 }
 
+/* .navLinks:hover {
+  -webkit-text-stroke: 0.6px;
+  transition: all .3s linear;
+} */
+
+.navLinks {
+  letter-spacing: .1em;
+  transition: text-shadow .3s linear;
+}
+
 .navLinks:hover {
-  -webkit-text-stroke: 0.7px;
+  text-shadow: 0 0 .9px #fff, 0 0 .9px #fff, 0 0 .9px #fff;
 }
 
 .crmimg::-webkit-scrollbar {
