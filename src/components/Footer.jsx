@@ -10,7 +10,7 @@ const Footer = () => {
                     <h2 className='font-semibold sm:text-2xxl text-5xl leading-[56px] sm:leading-[72px] text-center text-white mb-6 relative z-20'>Be part of the future of <span className='md:block'>IdentityHub</span><div className='absolute -bottom-3.5 left-0 right-0 flex items-center justify-center'><Gradientline /></div></h2>
                     <p className='text-lightgray-600 font-normal text-xl leading-8 text-center relative z-20'>Unleash the power of AI within cupid. Upgrade your productivity with <span className='md:block'>cupid, the open AI chat app.</span></p>
                     <div className='flex items-center justify-center '>
-                        <button className='mt-8 px-5 py-3 bg-btngradientfooter rounded-xl hover:shadow-gradientRed transition-all duration-300 ease-linear text-base font-medium text-white text-center relative z-10'>Start free trail</button>
+                        <button className='mt-8 px-5 py-2 bg-btngradientfooter rounded-xl hover:shadow-gradientRed transition-all duration-300 ease-linear text-base font-medium text-white text-center relative z-10'>Start free trail</button>
                     </div>
                     <div className='absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center z-[0]'><Pattern /></div>
                 </div>
