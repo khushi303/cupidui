@@ -23,8 +23,8 @@ const Footer = () => {
                             {footerlink.map((item, i) => {
                                 return (
                                     <>
-                                        <li key={i} className='lg:px-12 lg:py-8 sm:px-5 py-2 px-2'>
-                                            <a href={item.link} className=' text-xs tracking-[3.5%] text-center !leading-5 text-lightgray-600 uppercase hover:text-white transition-all duration-300 ease-linear'>{item.title}</a>
+                                        <li key={i} className='lg:px-12 lg:py-8 sm:px-5 py-2 px-2 leading-5'>
+                                            <a href={item.link} className=' text-xs tracking-[3.5%] text-center leading-5 text-lightgray-600 uppercase hover:text-white transition-all duration-300 ease-linear'>{item.title}</a>
                                         </li>
                                     </>
                                 )
