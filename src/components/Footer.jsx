@@ -32,13 +32,11 @@ const Footer = () => {
                     <div className='flex items-center sm:justify-between sm:flex-row flex-col-reverse sm:gap-0 gap-4 justify-center sm:py-6 py-4'>
                         <p className='text-sm font-normal text-lightgray-600 leading-5'>©{(new Date().getFullYear())}. All rights reserved</p>
                         <div className='flex gap-8 items-center'>
-                            {footerlinks.map((item, i) => {
+                            {footerlinks.map((item, index) => {
                                 return (
-                                    <>
-                                        <a href={item.link} target='blank' key={i} className='w-10 h-10 border-[2px] border-solid border-darkblue hover:bg-white transition-all duration-300 ease-linear group bg-darkblue rounded-full flex items-center justify-center'>
-                                            {item.linksvg}
-                                        </a>
-                                    </>
+                                    <a key={index} href={item.link} target='blank' className='w-10 h-10 border-[2px] border-solid border-darkblue hover:bg-white transition-all duration-300 ease-linear group bg-darkblue rounded-full flex items-center justify-center'>
+                                        {item.linksvg}
+                                    </a>
                                 )
                             })}
                         </div>
