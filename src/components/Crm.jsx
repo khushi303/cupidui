@@ -15,11 +15,11 @@ const Crm = () => {
                     <div className='flex justify-between flex-wrap'>
                         {CrmContent.map((item, i) => {
                             return (
-                                <div key={i} className={`${item.spacing} lg:w-4/12 md:w-6/12 xl:px-0 px-2`}>
+                                <div key={i} className={`${item.spacing} lg:w-4/12 md:w-6/12 xl:px-0 px-2 group cursor-pointer`}>
                                     <div className='flex items-center gap-2.5'>
                                         <Hyper />
-                                        <p className={`${item.textcolor} text-lg font-semibold leading-[22px]`}>{item.title}</p></div>
-                                    <p className={`text-base font-medium text-lightgray-100 leading-6 tracking-[-0.2px] mt-2.5 ${item.textcolor}`}>{item.description}
+                                        <p className='text-lightgray-200 text-lg font-semibold leading-[22px] group-hover:text-lightgray-100 transition-colors duration-300 ease-linear'>{item.title}</p></div>
+                                    <p className='text-base font-medium text-lightgray-200 leading-6 tracking-[-0.2px] mt-2.5 group-hover:text-lightgray-100 transition-colors duration-300 ease-linear'>{item.description}
                                     </p>
                                 </div>
                             )

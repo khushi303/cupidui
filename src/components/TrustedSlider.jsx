@@ -9,10 +9,13 @@ const TrustedSlider = () => {
         dots: false,
         infinite: true,
         arrows: false,
-        speed: 500,
         slidesToShow: 5,
         slidesToScroll: 1,
         initialSlide: 0,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
         responsive: [
             {
                 breakpoint: 1200,
