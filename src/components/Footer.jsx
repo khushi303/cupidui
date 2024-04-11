@@ -20,13 +20,11 @@ const Footer = () => {
                             <Logo />
                         </a>
                         <ul className='flex flex-wrap'>
-                            {footerlink.map((item, i) => {
+                            {footerlink.map((e, index) => {
                                 return (
-                                    <>
-                                        <li key={i} className='lg:px-12 lg:py-8 sm:px-5 py-2 px-2 leading-5'>
-                                            <a href={item.link} className=' text-xs tracking-[3.5%] text-center leading-5 text-lightgray-600 uppercase hover:text-white transition-all duration-300 ease-linear'>{item.title}</a>
-                                        </li>
-                                    </>
+                                    <li key={index} className='lg:px-12 lg:py-8 sm:px-5 py-2 px-2 leading-5'>
+                                        <a href={e.link} className=' text-xs tracking-[3.5%] text-center leading-5 text-lightgray-600 uppercase hover:text-white transition-all duration-300 ease-linear'>{e.title}</a>
+                                    </li>
                                 )
                             })}
                         </ul>
