@@ -56,7 +56,8 @@ module.exports = {
         'lightgray-700': '#FFFFFF1A',
         'lightgray-800': '#FFFFFF99',
         'lightgray-900': '#858585',
-        'darkblue': '#1B1530'
+        'darkblue': '#1B1530',
+        'lightwhite-100': '#FFFFFFCC'
       },
       borderRadius: {
         '9xl': '60px',

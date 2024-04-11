@@ -45,7 +45,7 @@ const TrustedSlider = () => {
     };
     return (
         <>
-            <div className='container mx-auto max-w-[1240px] px-3 lg:pt-12'>
+            <div className='w-full mx-auto max-w-[1240px] px-5 lg:pt-12'>
                 <div className='lg:p-16 sm:p-10 p-4'>
                     <h4 className='text-xl leading-[30px] text-center text-lightwhite mb-8'>Trusted by 4,000+ companies</h4>
                     <div>

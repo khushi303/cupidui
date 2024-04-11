@@ -10,8 +10,8 @@ const Priceing = () => {
                 <h3 className='sm:text-6xl text-4xl font-bold sm:leading-[56px] leading-9 tracking-[-1.2px] text-white text-center'>Pricing</h3>
                 <p className='sm:text-xxl text-lg font-medium sm:leading-[30px] left-5 tracking-[-0.3px] text-center text-lightgray lg:mt-5 mt-4'>Tweak anything and everything to ensure fits <span className='md:block'>your business, not the other way around.</span></p>
                 <div className='bg-lightgray-700 rounded-[41px] p-1 max-w-[192px] mx-auto w-full flex justify-between md:mt-[44.5px] mt-6'>
-                    <button onClick={() => setToggle(1)} className={`py-1 px-[18px] rounded-[48px] text-base  transition-all duration-300 ease-linear font-medium text-white ${toggle === 1 ? "bg-lightgray-700" : ""}`}>Yearly</button>
-                    <button onClick={() => setToggle(2)} className={`py-1 px-[18px] rounded-[48px] text-base font-medium text-white transition-all duration-300 ease-linear ${toggle === 2 ? "bg-lightgray-700" : ""}`}>Monthly</button>
+                    <button onClick={() => setToggle(1)} className={`py-1 px-[18px] rounded-[48px] text-base  transition-all duration-300 ease-linear font-normal text-lightwhite-100 ${toggle === 1 ? "bg-lightgray-700" : ""}`}>Yearly</button>
+                    <button onClick={() => setToggle(2)} className={`py-1 px-[18px] rounded-[48px] text-base font-medium text-lightwhite-100 transition-all duration-300 ease-linear ${toggle === 2 ? "bg-lightgray-700" : ""}`}>Monthly</button>
                 </div>
                 <div className='flex items-center flex-wrap justify-center w-full md:mt-16 sm:mt-10 mt-6 min-h-[780px] h-full'>
                     {
