@@ -31,7 +31,7 @@ const Footer = () => {
                             })}
                         </ul>
                     </div>
-                    <div className='flex items-center sm:justify-between sm:flex-row flex-col  sm:gap-0 gap-4 justify-center sm:py-6 py-4'>
+                    <div className='flex items-center sm:justify-between sm:flex-row flex-col-reverse sm:gap-0 gap-4 justify-center sm:py-6 py-4'>
                         <p className='text-sm font-normal text-lightgray-600 leading-5'>©{(new Date().getFullYear())}. All rights reserved</p>
                         <div className='flex gap-8 items-center'>
                             {footerlinks.map((item, i) => {
