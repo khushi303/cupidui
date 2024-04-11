@@ -10,7 +10,7 @@ const Crm = () => {
             <div id='Crm' className='container mx-auto px-3 max-w-[1320px] lg:pt-[93px] md:pt-14 py-10'>
                 <h2 className='sm:text-9xl text-5xl text-white sm:leading-[55px] font-bold'>A CRM created
                     <span className='sm:block'>to be your own.</span></h2>
-                <p className='text-xxl font-medium leading-[29px] tracking-[-0.3px] text-lightgray sm:mt-5 mt-4'>Tweak anything and everything to ensure fits <span className='md:block'>your business, not the other way around.</span></p>
+                <p className='text-xxl font-medium leading-[31px] tracking-[-0.3px] text-lightgray sm:mt-5 mt-4'>Tweak anything and everything to ensure fits <span className='md:block'>your business, not the other way around.</span></p>
                 <div className='bg-darkblack lg:mt-[92px] md:mt-12 mt-8 border border-solid border-[#3C3C3C] lg:pl-10 lg:pt-9 lg:pr-[38px] rounded-[20px] px-5 pt-5'>
                     <div className='flex justify-between flex-wrap'>
                         {CrmContent.map((item, i) => {
@@ -18,7 +18,7 @@ const Crm = () => {
                                 <div key={i} className={`${item.spacing} lg:w-4/12 md:w-6/12 xl:px-0 px-2`}>
                                     <div className='flex items-center gap-2.5'>
                                         <Hyper />
-                                        <p className={`${item.textcolor} text-lg font-semibold leading-5`}>{item.title}</p></div>
+                                        <p className={`${item.textcolor} text-lg font-semibold leading-[22px]`}>{item.title}</p></div>
                                     <p className={`text-base font-medium text-lightgray-100 leading-6 tracking-[-0.2px] mt-2.5 ${item.textcolor}`}>{item.description}
                                     </p>
                                 </div>
