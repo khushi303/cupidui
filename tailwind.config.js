@@ -24,6 +24,9 @@ module.exports = {
         '9xl': '50px',
         '2xxl': '60px',
       },
+      textShadow: {
+        'text_shadow': "0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff"
+      },
       spacing: {
         '16.5': "70px"
       },

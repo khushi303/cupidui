@@ -41,8 +41,8 @@ function App() {
           <Logo />
         </div>
       </div> </>) : (
-      <>
-        <div className='relative max-w-[1920px] mx-auto overflow-y-hidden lg:min-h-[782px] md:h-[768px] sm:h-[610px] h-[545px]'>
+      <div className=''>
+        <div className='relative max-w-[1920px] mx-auto overflow-y-hidden lg:min-h-[782px] md:h-[768px] sm:h-[610px] h-[545px] '>
           <Header />
           <div className='absolute sm:top-0 left-0 right-0 sm:bottom-0 bottom-[-10%] md:opacity-100 opacity-85'>
             <HeaderBg />
@@ -55,10 +55,10 @@ function App() {
         <Priceing />
         <Faq />
         <Footer />
-          <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-cardgradient sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-7 right-7 z-40 cursor-pointer hover:shadow-gradientRed transition-all duration-300 ease-linear`} onClick={() => top()}>
-          <img src={TopBtn} alt="TopBtn" className='sm:max-w-[40px] max-w-[30px]' />
+        <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-cardgradient sm:w-12 sm:h-12 w-10 h-10 animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-5 right-5 z-40 cursor-pointer hover:shadow-gradientRed transition-all duration-300 ease-linear`} onClick={() => top()}>
+          <img src={TopBtn} alt="TopBtn" className='sm:max-w-10 max-w-8' />
         </div>
-      </>
+      </div>
     )
     }</>
   );

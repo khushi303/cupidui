@@ -18,7 +18,7 @@ const Header = () => {
         <>
             <div className='container xl:max-w-[1320px] px-3 md:pt-10 pt-6 mx-auto'>
                 <nav className='rounded-9xl sm:py-2.5 py-3 px-2.5 flex items-center justify-between bg-black_light border_gradient relative after:bg-black_light after:backdrop-blur-xl after:top-0 after:left-0 after:right-0 after:bottom-0 after:rounded-9xl after:absolute after:z-10'>
-                    <a href={'/'} className='relative z-20'>
+                    <a href={'#'} className='relative z-20'>
                         <Logo />
                     </a>
                     <ul className={`${open ? "right-0" : "-right-full"} flex max-lg:fixed max-lg:top-0 max-lg:bg-black md:bg-full bg-cover max-lg:h-full max-lg:w-full z-30 max-lg:duration-300 max-lg:flex-col gap-7 items-center justify-center`}>
