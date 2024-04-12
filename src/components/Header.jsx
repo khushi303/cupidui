@@ -16,7 +16,7 @@ const Header = () => {
     });
     return (
         <>
-            <div className='container xl:max-w-[1320px] px-3 md:pt-10 pt-6 mx-auto'>
+            <div className='container xl:max-w-[1320px] xl:px-3 px-5 md:pt-10 pt-6 mx-auto'>
                 <nav className='rounded-9xl sm:py-2.5 py-3 px-2.5 flex items-center justify-between bg-black_light border_gradient relative after:bg-black_light after:backdrop-blur-xl after:top-0 after:left-0 after:right-0 after:bottom-0 after:rounded-9xl after:absolute after:z-10'>
                     <a href={'#'} className='relative z-20'>
                         <Logo />

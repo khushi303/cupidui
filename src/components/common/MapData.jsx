@@ -1,9 +1,4 @@
-import boltimg from '../../assets/images/webp/boltimg.webp'
-import lightimg from '../../assets/images/webp/lightimg.webp'
-import featherimg from '../../assets/images/webp/featherimg.webp'
-import sphruleimg from '../../assets/images/webp/speruleimg.webp'
-import globalimg from '../../assets/images/webp/globalimg.webp'
-import { Facebook, Instagram, ServiceSvg, ServiceSvg2, ServiceSvg3, ServiceSvg4, Telegram, Tweeter } from './Icons'
+import { BoltShift, Facebook, FeatherDev, GlobalBank, Instagram, LightBox, ServiceSvg, ServiceSvg2, ServiceSvg3, ServiceSvg4, Spherule, Telegram, Tweeter } from './Icons'
 
 export const NavData = [
     {
@@ -26,28 +21,23 @@ export const NavData = [
 
 export const SliderData = [
     {
-        img: boltimg,
-        alt: "boltimg",
+        imgsvg: <BoltShift />,
         link: 'https://ecommerce-excite.vercel.app/'
     },
     {
-        img: lightimg,
-        alt: "lightimg",
+        imgsvg: <LightBox />,
         link: 'https://www.lightboxre.com/'
     },
     {
-        img: featherimg,
-        alt: "featherimg",
+        imgsvg: <FeatherDev />,
         link: 'https://feathersjs.com/'
     },
     {
-        img: sphruleimg,
-        alt: "sphruleimg",
+        imgsvg: <Spherule />,
         link: 'https://spherule.org/'
     },
     {
-        img: globalimg,
-        alt: "globalimg",
+        imgsvg: <GlobalBank />,
         link: 'https://www.globalbank.com.pa/'
     },
 ]

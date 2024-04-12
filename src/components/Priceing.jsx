@@ -6,7 +6,7 @@ const Priceing = () => {
     const [toggle, setToggle] = useState(1)
     return (
         <div id='Pricing' className='relative py-10 lg:pt-20 md:pb-0 md:pt-14 lg:mt-20'>
-            <div className='container xl:max-w-[1209px] px-3 mx-auto lg:pt-3'>
+            <div className='container xl:max-w-[1209px] xl:px-3 px-5 mx-auto lg:pt-3'>
                 <h3 className='sm:text-6xl text-4xl font-bold sm:leading-[56px] leading-9 tracking-[-1.2px] text-white text-center'>Pricing</h3>
                 <p className='sm:text-xxl text-lg font-medium sm:leading-[30px] left-5 tracking-[-0.3px] text-center text-lightgray lg:mt-5 mt-4'>Tweak anything and everything to ensure fits <span className='md:block'>your business, not the other way around.</span></p>
                 <div className='bg-lightgray-700 rounded-[41px] p-1 max-w-[192px] mx-auto w-full flex justify-between md:mt-[44.5px] mt-6'>

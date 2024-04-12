@@ -98,3 +98,7 @@ body {
   background: linear-gradient(235.8deg, #7F04E3 -12.6%, #FF006B 106.18%);
   border-radius: 10px;
 }
+
+.accicon span {
+  display: none;
+}

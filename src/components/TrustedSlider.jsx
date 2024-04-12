@@ -12,6 +12,7 @@ const TrustedSlider = () => {
         slidesToShow: 5,
         slidesToScroll: 1,
         initialSlide: 0,
+        rtl: true,
         autoplay: true,
         speed: 4000,
         autoplaySpeed: 4000,
@@ -27,7 +28,7 @@ const TrustedSlider = () => {
                 }
             },
             {
-                breakpoint: 920,
+                breakpoint: 870,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -35,7 +36,7 @@ const TrustedSlider = () => {
                 }
             },
             {
-                breakpoint: 500,
+                breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1
@@ -45,16 +46,16 @@ const TrustedSlider = () => {
     };
     return (
         <>
-            <div className='w-full mx-auto max-w-[1240px] px-5 lg:pt-12'>
-                <div className='xl:p-16 py-10'>
+            <div className='w-full mx-auto xl:max-w-[1240px] xl:px-5 lg:pt-12'>
+                <div className='xl:p-16 pt-10 overflow-hidden'>
                     <h4 className='text-xl leading-[30px] text-center text-lightwhite mb-8'>Trusted by 4,000+ companies</h4>
                     <div>
-                        <Slider {...settings} className='opacity-40'>
+                        <Slider {...settings}>
                             {SliderData.map((slides, i) => {
                                 return (
                                     <div key={i} className='mx-3'>
-                                        <a href={slides.link} target='blank' className='flex items-center justify-center'>
-                                            <img src={slides.img} alt={slides.alt} className='h-[48px] max-w-[170px] w-full' />
+                                        <a href={slides.link} target='blank' className='flex items-center justify-center opacity-40 hover:opacity-100 transition-all duration-300 ease-linear'>
+                                            {slides.imgsvg}
                                         </a>
                                     </div>
                                 )

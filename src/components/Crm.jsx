@@ -7,7 +7,7 @@ import cheifimg from '../assets/images/webp/cheifimg.webp'
 const Crm = () => {
     return (
         <>
-            <div id='Crm' className='container mx-auto px-3 max-w-[1320px] xl:pt-[93px] py-16'>
+            <div id='Crm' className='container mx-auto xl:px-3 xl:max-w-[1320px] px-5 xl:pt-[93px] py-16'>
                 <h2 className='sm:text-9xl text-5xl text-white sm:leading-[55px] font-bold'>A CRM created
                     <span className='sm:block'>to be your own.</span></h2>
                 <p className='text-xxl font-medium leading-[31px] tracking-[-0.3px] text-lightgray xl:mt-5 mt-4'>Tweak anything and everything to ensure fits <span className='md:block'>your business, not the other way around.</span></p>
